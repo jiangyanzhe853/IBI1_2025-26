@@ -11,18 +11,18 @@ from random import randint
 # e.g. ceil(4.2)=5
 from math import ceil
 
-#定义变量total_rand，赋值为0
+#define variable: total_rand，with the value 0
 total_rand = 0
 
-#定义变量progress，赋值为0
+#define variable: progress, with the value 0
 progress=0
 
-#while loop
+#while loop: every time progress+1, take a random n and add it to total _rand 
 while progress<=10:
 	progress+=1
 	n = randint(1,10)
 	total_rand+=n
 
-#11次取随机数之和
+#sum of 11 times 
 print(total_rand)
 
