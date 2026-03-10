@@ -6,9 +6,9 @@ e = c-b
 print(d)
 print(e)
 if d>e:
-    print("增长减速")
+    print("increae slow down")
 else:
-    print("增常加速")
+    print("increase speed up")
 
 X = True
 Y = False
