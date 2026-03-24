@@ -1,5 +1,0 @@
-Hello, my name is Yanzhe,Jiang.
-I like drinking tea and eating chocolate biscuits.
-I am enjoying leanring IBI1 in person again 
-I am happy that I can push my repo from Visual Studio Code to GitHub
-I want to be a person who master computer skills and play a role in my future lab team.
