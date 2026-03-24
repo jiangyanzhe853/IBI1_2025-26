@@ -1,6 +1,6 @@
 # What does this piece of code do?
 # Answer:
-# the total amount of 11 times random integer
+# the total amount (sum) of 11 times random integer
 
 # Import libraries
 # randint allows drawing a random number,
