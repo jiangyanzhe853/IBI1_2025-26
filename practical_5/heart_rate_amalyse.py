@@ -1,8 +1,10 @@
+#input the data to create the list
 L = (72,90,126,85,90,59,76,131,88,121,64)
 num_patients = len(L)
 mean_hr = sum(L) / num_patients
 print(f"There are {num_patients} patients in the dataset. The mean heart rate is {mean_hr:.2f} bpm.")
 
+#to catagroize the data, we create three lists to contain three types of data
 Low_list = []
 Normal_list = []
 High_list = []
@@ -16,10 +18,13 @@ for i in L:
 low_count = len(Low_list)
 normal_count = len(Normal_list)
 high_count = len(High_list)
+
+#find out which category has the most people
 category_counts = {"Low": low_count, "Normal": normal_count, "High": high_count}
 max_category = max(category_counts, key=category_counts.get)
 print(f"\nThe category with the largest number of patients is: {max_category}")
 
+#draw the plot
 import matplotlib.pyplot as plt
 labels = ["Low", "Normal", "High"]
 sizes = [low_count, normal_count, high_count]
