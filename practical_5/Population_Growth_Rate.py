@@ -17,10 +17,6 @@ for country, data in population_data.items():
     pct_change = ((pop_2024 - pop_2020) / pop_2020) * 100
     percent_changes[country] = round(pct_change, 2)
 
-#print The percentage population change	for each country
-print("Population percentage change (2020-2024):")
-for country, change in percent_changes.items():
-    print(f"- {country}: {change}%")
 
 #A printed list	of population changes sorted from largest increase to largest decrease and a statement of the countries	with the largest increase and largest decrease
 sorted_changes = sorted(percent_changes.items(), key=lambda x: x[1], reverse=True)
