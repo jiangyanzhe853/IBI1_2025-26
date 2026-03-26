@@ -11,13 +11,16 @@ High_list = []
 for i in L:
     if i < 60:
         Low_list.append(i)
-    elif 60 <= i < 120:
+    elif 60 <= i <= 120:
         Normal_list.append(i)
     else:
         High_list.append(i)
 low_count = len(Low_list)
 normal_count = len(Normal_list)
 high_count = len(High_list)
+print(f"low (<60 bpm):{low_count}")
+print(f"normal (60-120 bpm):{normal_count}")
+print(f"high(>120 bpm):{high_count}")
 
 #find out which category has the most people
 category_counts = {"Low": low_count, "Normal": normal_count, "High": high_count}
