@@ -1,0 +1,10 @@
+Question: How has the relationship between the DALYs in China and the UK changed over time? Are they becoming more similar, less similar?
+
+Code location: The code for this question starts from Line 45.
+
+Brief discussion:
+The DALYs rates of China and the UK have shown a clear trend of convergence over the observed period. 
+China started with a much higher DALYs rate, but it has declined sharply over the years. 
+The UK’s DALYs rate remained relatively low and stable with a slight decrease. 
+The gap between the two countries has narrowed consistently. 
+Therefore, the DALYs levels of China and the UK are becoming more similar over time.
