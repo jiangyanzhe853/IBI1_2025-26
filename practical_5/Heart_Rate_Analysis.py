@@ -1,5 +1,5 @@
 #input the data to create the list
-L = (72,90,126,85,90,59,76,131,88,121,64)
+L = (72,60,126,85,90,59,76,131,88,121,64)
 num_patients = len(L)
 mean_hr = sum(L) / num_patients
 print(f"There are {num_patients} patients in the dataset. The mean heart rate is {mean_hr:.2f} bpm.")
