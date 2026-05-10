@@ -9,6 +9,7 @@ if d>e:
     print("increae slow down")
 else:
     print("increase speed up")
+#d>e, increase slow down
 
 X = True
 Y = False
