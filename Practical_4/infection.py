@@ -8,6 +8,6 @@ day = 0
 while i <=91:
     day +=1
     print(i)
-    i=int(1.4*i)
+    i=1.4*i
 print("all infected")
 print(f"infect all students need{day}days")
