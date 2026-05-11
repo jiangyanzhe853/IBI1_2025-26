@@ -1,0 +1,13 @@
+I have edited the commit messages for Population_Growth_Rate.py in Practical_3.
+I updated the commit message by adding "I like watching movies" in line 5.
+For the script variables.py in Practical_4, I added the comment "d > e, slow down".
+For the script infection.py in Practical_4, I removed the int() function to avoid rounding down the number each day. The final result has also been changed, as the original result included one extra day.
+For the script Heart_Rate_Analysis.py in Practical_5, I corrected the original dataset by changing "90" to "60". The final result has also changed.
+
+
+
+
+
+
+
+
