@@ -77,11 +77,9 @@ for t in range(100):
     population = new_population.copy()
 
     # plot progression
-    plt.figure(figsize=(5, 5), dpi=120)
-    plt.imshow(population, cmap='viridis', interpolation='nearest')
-    plt.title(f'Spatial SIR Model - Time {t + 1}')
-    plt.colorbar(label='State')
-    plt.pause(0.05)
-    plt.show(block=False)
-
-plt.show()
+    if (t + 1) in [10, 50, 100]:    
+        plt.figure(figsize=(5, 5), dpi=120)
+        plt.imshow(population, cmap='viridis', interpolation='nearest')
+        plt.title(f'Spatial SIR Model - Time {t + 1}')
+        plt.colorbar(label='State')
+        plt.show()
