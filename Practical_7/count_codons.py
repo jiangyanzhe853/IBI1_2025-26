@@ -60,7 +60,7 @@ with open(input_file, 'r') as infile:
                                 if len(current_orf_codons) > len(longest_orf_codons):
                                     longest_orf_codons = current_orf_codons.copy()
 
-                                break
+                                
 
                 # Count codons from longest ORF
                 if longest_orf_codons:
@@ -97,7 +97,7 @@ with open(input_file, 'r') as infile:
                         if len(current_orf_codons) > len(longest_orf_codons):
                             longest_orf_codons = current_orf_codons.copy()
 
-                        break
+                        
 
         if longest_orf_codons:
 
