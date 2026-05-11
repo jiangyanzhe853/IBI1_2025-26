@@ -1,0 +1,10 @@
+Reflection
+
+This practical helped me understand how probabilistic models can be used to simulate infectious disease spread. I found the first SIR model relatively straightforward because it mainly involved updating the numbers of susceptible, infected, and recovered individuals over time.
+
+The vaccination model was interesting because it showed clearly how increasing vaccination rates reduced the number of infected individuals. Running the model several times also demonstrated how stochastic models can produce different outcomes even when the parameters remain the same.
+
+The spatial SIR model was the most difficult part because it required working with a two-dimensional array and checking neighbouring cells. However, it was also the most enjoyable section because the heat maps made the disease spread visually easy to understand.
+
+The most important thing I learned from this practical was how randomness can strongly influence infection dynamics and how computational models can be used to study real-world biological systems and learn more about using randomness
+
