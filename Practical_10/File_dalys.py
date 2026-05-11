@@ -14,7 +14,7 @@ print(dalys_data.iloc[0:10,2:4])
 afghanistan_data = dalys_data[dalys_data["Entity"] == "Afghanistan"].iloc[0:10]
 max_dalys_year = afghanistan_data.loc[afghanistan_data["DALYs"].idxmax(), "Year"]
 print(f"highest_DALYs_year：{max_dalys_year}")
-#Comments: Across the first 10 years recorded for Afghanistan, the maximum DALYs value occurred in 1990
+#Comments: Across the first 10 years recorded for Afghanistan, the maximum DALYs value occurred in 1998
 
 #Years recorded in Zimbabwe
 new_entity = dalys_data["Entity"] == "Zimbabwe"
